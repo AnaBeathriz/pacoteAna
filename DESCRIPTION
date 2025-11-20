@@ -1,0 +1,16 @@
+Package: pacoteAna
+Type: Package
+Title: Pacote com 5 funções gráficas
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Ana", "Beathriz", "Leite", "Lorente",
+      email = "ana.lorente@unesp.br",
+      role = c("aut", "cre")
+    )
+  )
+Maintainer: Ana Beathriz Leite Lorente <ana.lorente@unesp.br>
+Description: Pacote contendo 5 funções simples para visualização de dados 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
