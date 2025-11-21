@@ -14,3 +14,5 @@ Description: Pacote contendo 5 funções simples para visualização de dados
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/AnaBeathriz/pacoteAna
+BugReports: https://github.com/AnaBeathriz/pacoteAna/issues
