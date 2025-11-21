@@ -6,6 +6,7 @@
 #'
 #' @return Um gráfico de pizza (base R)
 #' @export
+#' @importFrom graphics pie
 plot_pie <- function(valores, categorias, title = "") {
 
   porcentagens <- round(valores / sum(valores) * 100, 1)

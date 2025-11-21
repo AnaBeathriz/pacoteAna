@@ -1,3 +1,8 @@
+utils::globalVariables(c(
+  "n", "via_wrapped", "Log10_FDR", "Input_number", "Via", "Database"
+))
+
+
 #' Barplot horizontal de categorias
 #'
 #' @param df Data frame contendo a variável categórica.
@@ -5,6 +10,9 @@
 #' @param fill_colors Vetor de cores nomeadas (opcional).
 #'
 #' @return Um gráfico ggplot2.
+#' @examples
+#' df <- data.frame(grupo = c("A","B","A","C"))
+#' plot_bar_categorias(df, coluna = grupo)
 #' @export
 plot_bar_categorias <- function(df, coluna, fill_colors = NULL) {
 

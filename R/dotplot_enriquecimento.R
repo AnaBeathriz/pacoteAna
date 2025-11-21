@@ -7,6 +7,9 @@
 #'
 #' @return Um gráfico ggplot2.
 #' @export
+#' @importFrom dplyr %>% arrange desc mutate
+#' @importFrom stringr str_wrap
+#' @importFrom ggplot2 ggplot aes geom_point scale_fill_gradient theme_minimal labs
 plot_dotplot_enriquecimento <- function(df, via, log10_col, genes_col) {
 
   df2 <- df %>%
