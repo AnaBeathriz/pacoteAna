@@ -1,17 +1,14 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # pacoteAna
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of pacoteAna is to …
+The goal of pacoteAna is to ...
 
 ## Installation
 
-You can install the development version of pacoteAna from
-[GitHub](https://github.com/) with:
+You can install the development version of pacoteAna from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -26,3 +23,4 @@ This is a basic example which shows you how to solve a common problem:
 library(pacoteAna)
 ## basic example code
 ```
+
